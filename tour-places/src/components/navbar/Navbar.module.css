@@ -1,0 +1,19 @@
+nav{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    display: inline;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+    padding: 30px 10px;
+    font-weight: bolder;
+}
+ul li:hover{
+background-color: #C7E5F4;
+color:black;
+}

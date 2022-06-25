@@ -1,0 +1,35 @@
+.container{
+   
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.card{
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.13);
+    font-family: helvetica;
+    font-size: 10px;
+    color:red;
+    transition: .5s ease;
+}
+img {
+    width: 80%;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+img:hover {
+    filter: grayscale(100%);
+}
+.img:hover p{
+   visibility: visible;
+}

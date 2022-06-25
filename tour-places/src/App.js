@@ -7,9 +7,9 @@ import data from './helper/data';
 function App() {
   return (
     <>
+      <Navbar />
       <Header />
       <Card data={data} />
-      <Navbar />
     </>
   );
 }
